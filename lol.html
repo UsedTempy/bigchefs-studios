@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="mainframe" style="position:relative">
+        <canvas style="position:absolute;left:0;top:0;width:100%;height:100%"></canvas>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 595.28 841.89" style="direction:ltr" class="document-preview">
+        <rect fill="white" height="100%" width="100%"></rect>
+        <path fill="#EEF1F2" d="M 0,0 L 200,0 C 200,0,200,0,200,0 L 200,841.89 C 200,841.89,200,841.89,200,841.89 L 0,841.89 C 0,841.89,0,841.89,0,841.89 L 0,0 C 0,0,0,0,0,0 Z"></path>
+        <path fill="#395a86" d="M 0,0 L 200,0 C 200,0,200,0,200,0 L 200,55.625 C 200,55.625,200,55.625,200,55.625 L 0,55.625 C 0,55.625,0,55.625,0,55.625 L 0,0 C 0,0,0,0,0,0 Z"></path>
+        <text fill="white" style="font:bold 15px LiberationSans;white-space:pre;letter-spacing:0px" y="45.1875" x="49.1552734375">Ryan </text>
+        <text fill="white" style="font:bold 15px LiberationSans;white-space:pre;letter-spacing:0px" y="45.1875" x="90.00244140625">Klooster</text>
+        <path fill="#395a86" d="M 0,53.625 L 200,53.625 C 200,53.625,200,53.625,200,53.625 L 200,68.625 C 200,68.625,200,68.625,200,68.625 C 140,96.625,60,96.625,0,68.625 C 0,68.625,0,68.625,0,68.625 L 0,53.625 C 0,53.625,0,53.625,0,53.625 Z"></path>
+        <svg y="105.625" x="15" id="personalDetails"></svg>
+        <text fill="#395a86" style="font:normal 18px LiberationSans;white-space:pre;letter-spacing:0px" y="123.85" x="15">Personalia</text>
+        <path fill="#c8c8c8" d="M 15,134.375 L 185,134.375 C 185,134.375,185,134.375,185,134.375 L 185,134.875 C 185,134.875,185,134.875,185,134.875 L 15,134.875 C 15,134.875,15,134.875,15,134.875 L 15,134.375 C 15,134.375,15,134.375,15,134.375 Z"></path>
+        <svg y="144.875" x="15"></svg>
+        <image image-rendering="optimizeSpeed" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiMzOTVhODYiIHZpZXdCb3g9IjAgMCA0NDggNTEyIiB3aWR0aD0iNDQ4IiBoZWlnaHQ9IjUxMiI+PHBhdGggZD0iTTIyNCAyNTZjNzAuNyAwIDEyOC01Ny4zIDEyOC0xMjhTMjk0LjcgMCAyMjQgMCA5NiA1Ny4zIDk2IDEyOHM1Ny4zIDEyOCAxMjggMTI4em04OS42IDMyaC0xNi43Yy0yMi4yIDEwLjItNDYuOSAxNi03Mi45IDE2cy01MC42LTUuOC03Mi45LTE2aC0xNi43QzYwLjIgMjg4IDAgMzQ4LjIgMCA0MjIuNFY0NjRjMCAyNi41IDIxLjUgNDggNDggNDhoMzUyYzI2LjUgMCA0OC0yMS41IDQ4LTQ4di00MS42YzAtNzQuMi02MC4yLTEzNC40LTEzNC40LTEzNC40eiI+PC9wYXRoPjwvc3ZnPg==" height="15" width="13.125" y="144.875" x="15.9375"></image>
+        <text fill="black" style="font:normal 10px LiberationSans;white-space:pre;letter-spacing:0px" y="155" x="39">Ryan </text>
+        <text fill="black" style="font:normal 10px LiberationSans;white-space:pre;letter-spacing:0px" y="155" x="65.123046875">Klooster</text>
+        <svg y="174.875" x="15" id="emailaddress"></svg>
+        <image image-rendering="optimizeSpeed" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiMzOTVhODYiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiI+PHBhdGggZD0iTTUwMi4zIDE5MC44YzMuOS0zLjEgOS43LS4yIDkuNyA0LjdWNDAwYzAgMjYuNS0yMS41IDQ4LTQ4IDQ4SDQ4Yy0yNi41IDAtNDgtMjEuNS00OC00OFYxOTUuNmMwLTUgNS43LTcuOCA5LjctNC43IDIyLjQgMTcuNCA1Mi4xIDM5LjUgMTU0LjEgMTEzLjYgMjEuMSAxNS40IDU2LjcgNDcuOCA5Mi4yIDQ3LjYgMzUuNy4zIDcyLTMyLjggOTIuMy00Ny42IDEwMi03NC4xIDEzMS42LTk2LjMgMTU0LTExMy43ek0yNTYgMzIwYzIzLjIuNCA1Ni42LTI5LjIgNzMuNC00MS40IDEzMi43LTk2LjMgMTQyLjgtMTA0LjcgMTczLjQtMTI4LjcgNS44LTQuNSA5LjItMTEuNSA5LjItMTguOXYtMTljMC0yNi41LTIxLjUtNDgtNDgtNDhINDhDMjEuNSA2NCAwIDg1LjUgMCAxMTJ2MTljMCA3LjQgMy40IDE0LjMgOS4yIDE4LjkgMzAuNiAyMy45IDQwLjcgMzIuNCAxNzMuNCAxMjguNyAxNi44IDEyLjIgNTAuMiA0MS44IDczLjQgNDEuNHoiPjwvcGF0aD48L3N2Zz4=" height="15" width="15" y="174.875" x="15"></image>
+        <text fill="black" style="font:normal 10px LiberationSans;white-space:pre;letter-spacing:0px" y="185" x="39">rxklooster</text>
+        <text fill="black" style="font:normal 10px LiberationSans;white-space:pre;letter-spacing:0px" y="185" x="82.3447265625">@</text>
+        <text fill="black" style="font:normal 10px LiberationSans;white-space:pre;letter-spacing:0px" y="185" x="92.49609375">st</text>
+        <text fill="black" style="font:normal 10px LiberationSans;white-space:pre;letter-spacing:0px" y="185" x="100.2744140625">.</text>
+        <text fill="black" style="font:normal 10px LiberationSans;white-space:pre;letter-spacing:0px" y="185" x="103.052734375">noorderpoort</text>
+        <text fill="black" style="font:normal 10px LiberationSans;white-space:pre;letter-spacing:0px" y="185" x="160.3134765625">.</text>
+        <text fill="black" style="font:normal 10px LiberationSans;white-space:pre;letter-spacing:0px" y="185" x="163.091796875">nl</text>
+        <svg y="204.875" x="15" id="phonenumber"></svg>
+        <image image-rendering="optimizeSpeed" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiMzOTVhODYiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiI+PHBhdGggZD0iTTQ5My40IDI0LjZsLTEwNC0yNGMtMTEuMy0yLjYtMjIuOSAzLjMtMjcuNSAxMy45bC00OCAxMTJjLTQuMiA5LjgtMS40IDIxLjMgNi45IDI4bDYwLjYgNDkuNmMtMzYgNzYuNy05OC45IDE0MC41LTE3Ny4yIDE3Ny4ybC00OS42LTYwLjZjLTYuOC04LjMtMTguMi0xMS4xLTI4LTYuOWwtMTEyIDQ4QzMuOSAzNjYuNS0yIDM3OC4xLjYgMzg5LjRsMjQgMTA0QzI3LjEgNTA0LjIgMzYuNyA1MTIgNDggNTEyYzI1Ni4xIDAgNDY0LTIwNy41IDQ2NC00NjQgMC0xMS4yLTcuNy0yMC45LTE4LjYtMjMuNHoiPjwvcGF0aD48L3N2Zz4=" height="15" width="15" y="204.875" x="15"></image>
+        <text fill="black" style="font:normal 10px LiberationSans;white-space:pre;letter-spacing:0px" y="215" x="39">0628765614</text>
+        <svg y="234.875" x="15" id="address"></svg>
+        <image image-rendering="optimizeSpeed" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiMzOTVhODYiIHZpZXdCb3g9IjAgMCA1NzYgNTEyIiB3aWR0aD0iNTc2IiBoZWlnaHQ9IjUxMiI+PHBhdGggZD0iTTI4MC4zNyAxNDguMjZMOTYgMzAwLjExVjQ2NGExNiAxNiAwIDAgMCAxNiAxNmwxMTIuMDYtLjI5YTE2IDE2IDAgMCAwIDE1LjkyLTE2VjM2OGExNiAxNiAwIDAgMSAxNi0xNmg2NGExNiAxNiAwIDAgMSAxNiAxNnY5NS42NGExNiAxNiAwIDAgMCAxNiAxNi4wNUw0NjQgNDgwYTE2IDE2IDAgMCAwIDE2LTE2VjMwMEwyOTUuNjcgMTQ4LjI2YTEyLjE5IDEyLjE5IDAgMCAwLTE1LjMgMHpNNTcxLjYgMjUxLjQ3TDQ4OCAxODIuNTZWNDQuMDVhMTIgMTIgMCAwIDAtMTItMTJoLTU2YTEyIDEyIDAgMCAwLTEyIDEydjcyLjYxTDMxOC40NyA0M2E0OCA0OCAwIDAgMC02MSAwTDQuMzQgMjUxLjQ3YTEyIDEyIDAgMCAwLTEuNiAxNi45bDI1LjUgMzFBMTIgMTIgMCAwIDAgNDUuMTUgMzAxbDIzNS4yMi0xOTMuNzRhMTIuMTkgMTIuMTkgMCAwIDEgMTUuMyAwTDUzMC45IDMwMWExMiAxMiAwIDAgMCAxNi45LTEuNmwyNS41LTMxYTEyIDEyIDAgMCAwLTEuNy0xNi45M3oiPjwvcGF0aD48L3N2Zz4=" height="15" width="16.875" y="234.875" x="14.0625"></image>
+        <text fill="black" style="font:normal 10px LiberationSans;white-space:pre;letter-spacing:0px" y="245" x="39">De </text>
+        <text fill="black" style="font:normal 10px LiberationSans;white-space:pre;letter-spacing:0px" y="245" x="54.5615234375">Hop </text>
+        <text fill="black" style="font:normal 10px LiberationSans;white-space:pre;letter-spacing:0px" y="245" x="75.6845703125">5</text>
+        <text fill="black" style="font:normal 10px LiberationSans;white-space:pre;letter-spacing:0px" y="258.75" x="39">9702 </text>
+        <text fill="black" style="font:normal 10px LiberationSans;white-space:pre;letter-spacing:0px" y="258.75" x="64.0244140625">PL </text>
+        <text fill="black" style="font:normal 10px LiberationSans;white-space:pre;letter-spacing:0px" y="258.75" x="79.0341796875">Roden</text>
+        <svg y="287.375" x="15" id="skills"></svg>
+        <text fill="#395a86" style="font:normal 18px LiberationSans;white-space:pre;letter-spacing:0px" y="305.6" x="15">Vaardigheden</text>
+        <path fill="#c8c8c8" d="M 15,316.125 L 185,316.125 C 185,316.125,185,316.125,185,316.125 L 185,316.625 C 185,316.625,185,316.625,185,316.625 L 15,316.625 C 15,316.625,15,316.625,15,316.625 L 15,316.125 C 15,316.125,15,316.125,15,316.125 Z"></path>
+        <svg y="326.625" x="15" id="9d009c24-e408-4ac4-bbf9-a693276913e1"></svg>
+        <text fill="black" style="font:normal 10px LiberationSans;white-space:pre;letter-spacing:0px" y="336.75" x="15">C#</text>
+        <circle fill="#395a86" r="3.75" cy="333.25" cx="141.25"></circle>
+        <circle fill="#395a86" r="3.75" cy="333.25" cx="151.25"></circle>
+        <circle fill="#395a86" r="3.75" cy="333.25" cx="161.25"></circle>
+        <circle fill="#395a86" r="3.75" cy="333.25" cx="171.25"></circle>
+        <circle fill="#c8c8c8" r="3.75" cy="333.25" cx="181.25"></circle>
+        <svg y="350.375" x="15" id="e7146b1f-6f47-49c8-b6a8-9fa26ac5902a"></svg>
+        <text fill="black" style="font:normal 10px LiberationSans;white-space:pre;letter-spacing:0px" y="360.5" x="15">HTML</text>
+        <circle fill="#395a86" r="3.75" cy="357" cx="141.25"></circle>
+        <circle fill="#395a86" r="3.75" cy="357" cx="151.25"></circle>
+        <circle fill="#395a86" r="3.75" cy="357" cx="161.25"></circle>
+        <circle fill="#c8c8c8" r="3.75" cy="357" cx="171.25"></circle>
+        <circle fill="#c8c8c8" r="3.75" cy="357" cx="181.25"></circle>
+        <svg y="374.125" x="15" id="9656db16-ea35-4722-8979-91c88a09873b"></svg>
+        <text fill="black" style="font:normal 10px LiberationSans;white-space:pre;letter-spacing:0px" y="384.25" x="15">CSS</text>
+        <circle fill="#395a86" r="3.75" cy="380.75" cx="141.25"></circle>
+        <circle fill="#395a86" r="3.75" cy="380.75" cx="151.25"></circle>
+        <circle fill="#395a86" r="3.75" cy="380.75" cx="161.25"></circle>
+        <circle fill="#c8c8c8" r="3.75" cy="380.75" cx="171.25"></circle>
+        <circle fill="#c8c8c8" r="3.75" cy="380.75" cx="181.25"></circle>
+        <svg y="397.875" x="15" id="74681c17-0938-424d-9d3b-caa58f69c517"></svg>
+        <text fill="black" style="font:normal 10px LiberationSans;white-space:pre;letter-spacing:0px" y="408" x="15">PYTHON</text>
+        <circle fill="#395a86" r="3.75" cy="404.5" cx="141.25"></circle>
+        <circle fill="#395a86" r="3.75" cy="404.5" cx="151.25"></circle>
+        <circle fill="#395a86" r="3.75" cy="404.5" cx="161.25"></circle>
+        <circle fill="#c8c8c8" r="3.75" cy="404.5" cx="171.25"></circle>
+        <circle fill="#c8c8c8" r="3.75" cy="404.5" cx="181.25"></circle>
+        <svg y="421.625" x="15" id="f0e18932-37e1-4c56-8a0b-cefb72689f06"></svg>
+        <text fill="black" style="font:normal 10px LiberationSans;white-space:pre;letter-spacing:0px" y="431.75" x="15">JAVASCRIPT</text>
+        <circle fill="#395a86" r="3.75" cy="428.25" cx="141.25"></circle>
+        <circle fill="#395a86" r="3.75" cy="428.25" cx="151.25"></circle>
+        <circle fill="#395a86" r="3.75" cy="428.25" cx="161.25"></circle>
+        <circle fill="#395a86" r="3.75" cy="428.25" cx="171.25"></circle>
+        <circle fill="#c8c8c8" r="3.75" cy="428.25" cx="181.25"></circle>
+        <svg y="445.375" x="15" id="c72fbabb-2318-4a30-96b8-fc2a4b9b422c"></svg>
+        <text fill="black" style="font:normal 10px LiberationSans;white-space:pre;letter-spacing:0px" y="455.5" x="15">LUA</text>
+        <circle fill="#395a86" r="3.75" cy="452" cx="141.25"></circle>
+        <circle fill="#395a86" r="3.75" cy="452" cx="151.25"></circle>
+        <circle fill="#395a86" r="3.75" cy="452" cx="161.25"></circle>
+        <circle fill="#395a86" r="3.75" cy="452" cx="171.25"></circle>
+        <circle fill="#395a86" r="3.75" cy="452" cx="181.25"></circle>
+        <svg y="469.125" x="15" id="fd0ee4ce-19e9-4fcc-8324-3f57855973ca"></svg>
+        <text fill="black" style="font:normal 10px LiberationSans;white-space:pre;letter-spacing:0px" y="479.25" x="15">LUAU</text>
+        <circle fill="#395a86" r="3.75" cy="475.75" cx="141.25"></circle>
+        <circle fill="#395a86" r="3.75" cy="475.75" cx="151.25"></circle>
+        <circle fill="#395a86" r="3.75" cy="475.75" cx="161.25"></circle>
+        <circle fill="#395a86" r="3.75" cy="475.75" cx="171.25"></circle>
+        <circle fill="#395a86" r="3.75" cy="475.75" cx="181.25"></circle>
+        <svg y="502.875" x="15" id="languages"></svg>
+        <text fill="#395a86" style="font:normal 18px LiberationSans;white-space:pre;letter-spacing:0px" y="521.1" x="15">Talen</text>
+        <path fill="#c8c8c8" d="M 15,531.625 L 185,531.625 C 185,531.625,185,531.625,185,531.625 L 185,532.125 C 185,532.125,185,532.125,185,532.125 L 15,532.125 C 15,532.125,15,532.125,15,532.125 L 15,531.625 C 15,531.625,15,531.625,15,531.625 Z"></path>
+        <svg y="542.125" x="15" id="0b0b1064-f5a9-48b0-ae7a-1d861365822d"></svg>
+        <text fill="black" style="font:normal 10px LiberationSans;white-space:pre;letter-spacing:0px" y="552.25" x="15">Nederlands</text>
+        <circle fill="#395a86" r="3.75" cy="548.75" cx="141.25"></circle>
+        <circle fill="#395a86" r="3.75" cy="548.75" cx="151.25"></circle>
+        <circle fill="#395a86" r="3.75" cy="548.75" cx="161.25"></circle>
+        <circle fill="#395a86" r="3.75" cy="548.75" cx="171.25"></circle>
+        <circle fill="#395a86" r="3.75" cy="548.75" cx="181.25"></circle>
+        <svg y="565.875" x="15" id="b40e3318-b03d-4825-b2e6-e80374e4bf79"></svg>
+        <text fill="black" style="font:normal 10px LiberationSans;white-space:pre;letter-spacing:0px" y="576" x="15">Engels</text>
+        <circle fill="#395a86" r="3.75" cy="572.5" cx="141.25"></circle>
+        <circle fill="#395a86" r="3.75" cy="572.5" cx="151.25"></circle>
+        <circle fill="#395a86" r="3.75" cy="572.5" cx="161.25"></circle>
+        <circle fill="#395a86" r="3.75" cy="572.5" cx="171.25"></circle>
+        <circle fill="#395a86" r="3.75" cy="572.5" cx="181.25"></circle>
+        <svg y="599.625" x="15" id="hobbies"></svg>
+        <text fill="#395a86" style="font:normal 18px LiberationSans;white-space:pre;letter-spacing:0px" y="617.85" x="15">Hobby's </text>
+        <text fill="#395a86" style="font:normal 18px LiberationSans;white-space:pre;letter-spacing:0px" y="617.85" x="84.46875">en </text>
+        <text fill="#395a86" style="font:normal 18px LiberationSans;white-space:pre;letter-spacing:0px" y="642.6" x="15">interesses</text>
+        <path fill="#c8c8c8" d="M 15,653.125 L 185,653.125 C 185,653.125,185,653.125,185,653.125 L 185,653.625 C 185,653.625,185,653.625,185,653.625 L 15,653.625 C 15,653.625,15,653.625,15,653.625 L 15,653.125 C 15,653.125,15,653.125,15,653.125 Z"></path>
+        <svg y="663.625" x="15" id="82ad8724-5850-4161-8522-5c68736430af"></svg>
+        <path fill="#395a86" d="M 15,666.75 L 22.5,666.75 C 22.5,666.75,22.5,666.75,22.5,666.75 L 22.5,674.25 C 22.5,674.25,22.5,674.25,22.5,674.25 L 15,674.25 C 15,674.25,15,674.25,15,674.25 L 15,666.75 C 15,666.75,15,666.75,15,666.75 Z"></path>
+        <text fill="black" style="font:normal 10px LiberationSans;white-space:pre;letter-spacing:0px" y="673.75" x="27.5">Programming</text>
+        <svg y="687.375" x="15" id="eea480c5-7eb2-4c99-ba01-16db6a862602"></svg>
+        <path fill="#395a86" d="M 15,690.5 L 22.5,690.5 C 22.5,690.5,22.5,690.5,22.5,690.5 L 22.5,698 C 22.5,698,22.5,698,22.5,698 L 15,698 C 15,698,15,698,15,698 L 15,690.5 C 15,690.5,15,690.5,15,690.5 Z"></path>
+        <text fill="black" style="font:normal 10px LiberationSans;white-space:pre;letter-spacing:0px" y="697.5" x="27.5">Gaming</text>
+        <svg y="30" x="215" id="educations"></svg>
+        <text fill="#395a86" style="font:normal 18px LiberationSans;white-space:pre;letter-spacing:0px" y="48.225" x="215">Opleidingen</text>
+        <path fill="#c8c8c8" d="M 215,58.75 L 580.28,58.75 C 580.28,58.75,580.28,58.75,580.28,58.75 L 580.28,59.25 C 580.28,59.25,580.28,59.25,580.28,59.25 L 215,59.25 C 215,59.25,215,59.25,215,59.25 L 215,58.75 C 215,58.75,215,58.75,215,58.75 Z"></path>
+        <svg y="74.25" x="215" id="afb3f15f-0255-4b25-8bb8-22592109cf97"></svg>
+        <text fill="black" style="font:bold 10px LiberationSans;white-space:pre;letter-spacing:0px" y="84.375" x="215">Software </text>
+        <text fill="black" style="font:bold 10px LiberationSans;white-space:pre;letter-spacing:0px" y="84.375" x="260.009765625">Developer </text>
+        <text fill="black" style="font:bold 10px LiberationSans;white-space:pre;letter-spacing:0px" y="84.375" x="311.142578125">Games</text>
+        <text fill="#395a86" style="font:bold 10px LiberationSans;white-space:pre;letter-spacing:0px" y="84.375" x="499.6891796875">sep </text>
+        <text fill="#395a86" style="font:bold 10px LiberationSans;white-space:pre;letter-spacing:0px" y="84.375" x="519.6989453125">2022 </text>
+        <text fill="#395a86" style="font:bold 10px LiberationSans;white-space:pre;letter-spacing:0px" y="84.375" x="544.723359375">- </text>
+        <text fill="#395a86" style="font:bold 10px LiberationSans;white-space:pre;letter-spacing:0px" y="84.375" x="550.8317578125">heden</text>
+        <text fill="#395a86" style="font:normal 10px LiberationSans;white-space:pre;letter-spacing:0px" y="98.125" x="215">Noorderpoort</text>
+        <text fill="#395a86" style="font:normal 10px LiberationSans;white-space:pre;letter-spacing:0px" y="98.125" x="273.9208984375">, </text>
+        <text fill="#395a86" style="font:normal 10px LiberationSans;white-space:pre;letter-spacing:0px" y="98.125" x="279.4775390625">Groningen</text>
+        <svg y="116.75" x="215" id="employment"></svg>
+        <text fill="#395a86" style="font:normal 18px LiberationSans;white-space:pre;letter-spacing:0px" y="134.975" x="215">Werkervaring</text>
+        <path fill="#c8c8c8" d="M 215,145.5 L 580.28,145.5 C 580.28,145.5,580.28,145.5,580.28,145.5 L 580.28,146 C 580.28,146,580.28,146,580.28,146 L 215,146 C 215,146,215,146,215,146 L 215,145.5 C 215,145.5,215,145.5,215,145.5 Z"></path>
+        <svg y="161" x="215" id="6cc72d91-9214-4376-a6ad-bd5df082640f"></svg>
+        <text fill="black" style="font:bold 10px LiberationSans;white-space:pre;letter-spacing:0px" y="171.125" x="215">Full </text>
+        <text fill="black" style="font:bold 10px LiberationSans;white-space:pre;letter-spacing:0px" y="171.125" x="235.5517578125">Stack </text>
+        <text fill="black" style="font:bold 10px LiberationSans;white-space:pre;letter-spacing:0px" y="171.125" x="265.0146484375">Developer</text>
+        <text fill="#395a86" style="font:bold 10px LiberationSans;white-space:pre;letter-spacing:0px" y="171.125" x="502.4723828125">jan </text>
+        <text fill="#395a86" style="font:bold 10px LiberationSans;white-space:pre;letter-spacing:0px" y="171.125" x="519.6989453125">2021 </text>
+        <text fill="#395a86" style="font:bold 10px LiberationSans;white-space:pre;letter-spacing:0px" y="171.125" x="544.723359375">- </text>
+        <text fill="#395a86" style="font:bold 10px LiberationSans;white-space:pre;letter-spacing:0px" y="171.125" x="550.8317578125">heden</text>
+        <text fill="#395a86" style="font:normal 10px LiberationSans;white-space:pre;letter-spacing:0px" y="184.875" x="215">Big </text>
+        <text fill="#395a86" style="font:normal 10px LiberationSans;white-space:pre;letter-spacing:0px" y="184.875" x="232.2314453125">Chefs </text>
+        <text fill="#395a86" style="font:normal 10px LiberationSans;white-space:pre;letter-spacing:0px" y="184.875" x="261.1328125">LTD</text>
+        <text fill="#395a86" style="font:normal 10px LiberationSans;white-space:pre;letter-spacing:0px" y="184.875" x="280.0244140625">, </text>
+        <text fill="#395a86" style="font:normal 10px LiberationSans;white-space:pre;letter-spacing:0px" y="184.875" x="285.5810546875">England</text>
+        <path fill="#395a86" d="M 0,801.89 C 60,829.89,140,829.89,200,801.89 C 200,801.89,200,801.89,200,801.89 L 200,841.89 C 200,841.89,200,841.89,200,841.89 L 0,841.89 C 0,841.89,0,841.89,0,841.89 L 0,801.89 C 0,801.89,0,801.89,0,801.89 Z"></path>
+        </svg>
+        </div>
+</body>
+</html>
