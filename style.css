@@ -97,14 +97,14 @@ nav{
 }
 
 .container img{
-    position: absolute; /* Position image absolutely within container */
-    top: 0; /* Align image to top of container */
-    left: 0; /* Align image to left of container */
-    width: 100%; /* Stretch image to container width for full background */
-    height: 100%; /* Stretch image to container height for full background */
-    object-fit: cover; /* Ensure image covers container while maintaining aspect ratio */
-    filter: blur(4px); /* Maintain blur effect */
-    z-index: -1; /* Place image behind content (optional for some browsers) */
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: blur(4px);
+    z-index: -1;
 }
 
 header{
